@@ -7,7 +7,7 @@ document.addEventListener("keydown", function(event) {
     for (var i = 0; i < allTags.length; i++) {
       var newAtt = allTags[i];
       var tagText = newAtt.textContent;
-      var shortCut = document.createElement('h3');
+      var shortCut = document.createElement('p');
       shortCut.textContent = tagText;
       newAtt.appendChild(shortCut);
     }
